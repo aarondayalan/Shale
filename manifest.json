@@ -1,0 +1,21 @@
+{
+	"name": "Tack-E",
+	"version": "0.0.1",
+	"description": "TNTP Academy Communications and Knowledge Extension",
+	"homepage_url": "http://www.tntp.org",
+	"background_page": "bg_worker.html",
+	"icons": {
+		"16": "Images/16.png",
+		"48": "Images/48.png",
+		"128": "Images/128.png"
+	},
+	"browser_action": {
+		"default_icon": "Images/icon.png",
+		"default_popup": "main.html",		
+		"default_title": "TeacherTrack2"
+	},
+	"permissions": [
+		"cookies",
+		"*://*.tt2alpha.org"
+	]
+}

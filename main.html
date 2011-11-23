@@ -1,0 +1,25 @@
+<html>
+<head>
+<link type="text/css" href="/css/style.css" rel="Stylesheet" />
+<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/js/MessageCenter.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+            $("#messageCenter").messageCenter();
+        });
+    });
+</script>
+</head>
+<body style="width:600px;">
+<h1 style="margin-top:-4px;padding-top:0;">Message Center
+<span style="vertical-align:text-top;margin: 0 0 0 8px;"></span>
+</h1>
+<iframe src="http://tt2alpha.org/MessageCenter/Get/something" width="100%" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<div ID="messageCenter" runat="server" data-bind="template: 'messageCenter'">
+    <div style="text-align: center"><img src="Images/loadingLarge.gif" alt="loading" /></div>
+</div>
+
+</body>
+</html>
